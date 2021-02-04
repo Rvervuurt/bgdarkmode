@@ -85,7 +85,7 @@ body.darkmode #spelenlogo a img {
   height: 14px;
   padding-left: 155px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/bgspelen-darkmode.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/bgspelen-darkmode.png");
 }
 body.darkmode #searchresults {
   background: #333;
@@ -111,7 +111,7 @@ body.darkmode #consolemenu > ul > li > a {
   text-align: center;
 }
 body.darkmode #consolemenu #prijslijst {
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/console-menu-trans.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/console-menu-trans.png");
 }
 
 /* Header submenu */
@@ -235,7 +235,7 @@ body.darkmode #game-info .game-cover.groot .zoomicon img {
   height: 20px;
   padding-left: 20px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/zoom.svg");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/zoom.svg");
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
@@ -247,7 +247,7 @@ body.darkmode #game-info img[src="/images/Budgyrood.png"] {
   height: 35px;
   padding-left: 35px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/ratings.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/ratings.png");
   background-position-y: -35px;
   padding-left: 35px !important;
   margin-left: 2px;
@@ -258,7 +258,7 @@ body.darkmode #game-info img[src="/images/Budgygrijs.png"] {
   height: 35px;
   padding-left: 35px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/ratings.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/ratings.png");
   padding-left: 35px !important;
   margin-left: 2px;
 }
@@ -266,7 +266,7 @@ body.darkmode #game-info #ratingbox-wrapper a {
   margin-left: 6px;
 }
 body.darkmode #game-info .rate_widget .ratings_stars {
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/ratings.png") no-repeat;
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/ratings.png") no-repeat;
 }
 body.darkmode #game-info .rate_widget .ratings_stars.ratings_over, body.darkmode #game-info .rate_widget .ratings_stars.ratings_vote {
   background-position-y: -35px;
@@ -415,7 +415,7 @@ body.darkmode img[src="/afb/silverblauw_donker.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/zilverblauw-donker.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/zilverblauw-donker.png");
 }
 body.darkmode img[src="/afb/donkergroen.png"] {
   display: inline-block;
@@ -423,7 +423,7 @@ body.darkmode img[src="/afb/donkergroen.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/donkergroen.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/donkergroen.png");
 }
 body.darkmode img[src="/afb/lichtgroen.png"] {
   display: inline-block;
@@ -431,7 +431,7 @@ body.darkmode img[src="/afb/lichtgroen.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/lichtgroen.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/lichtgroen.png");
 }
 body.darkmode img[src="/afb/geel.png"] {
   display: inline-block;
@@ -439,7 +439,7 @@ body.darkmode img[src="/afb/geel.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/geel.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/geel.png");
 }
 body.darkmode img[src="/afb/oranje.png"] {
   display: inline-block;
@@ -447,7 +447,7 @@ body.darkmode img[src="/afb/oranje.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/oranje.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/oranje.png");
 }
 body.darkmode img[src="/afb/donkerrood.png"] {
   display: inline-block;
@@ -455,7 +455,7 @@ body.darkmode img[src="/afb/donkerrood.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/donkerrood.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/donkerrood.png");
 }
 body.darkmode img[src="/afb/empty.png"] {
   display: inline-block;
@@ -463,7 +463,7 @@ body.darkmode img[src="/afb/empty.png"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/empty.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/empty.png");
 }
 body.darkmode #shopsurvey .shop-foto {
   background: transparent;
@@ -710,7 +710,7 @@ body.darkmode .logoutButton {
   height: 12px;
   padding-left: 12px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/sign-out.svg");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/sign-out.svg");
 }
 
 /* Game Review (ratings) */
@@ -720,7 +720,7 @@ body.darkmode img[src$="Budgyrating1.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating10.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating10.png");
 }
 body.darkmode img[src$="Budgyrating15.png"] {
   display: inline-block;
@@ -728,7 +728,7 @@ body.darkmode img[src$="Budgyrating15.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating15.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating15.png");
 }
 body.darkmode img[src$="Budgyrating2.png"] {
   display: inline-block;
@@ -736,7 +736,7 @@ body.darkmode img[src$="Budgyrating2.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating20.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating20.png");
 }
 body.darkmode img[src$="Budgyrating25.png"] {
   display: inline-block;
@@ -744,7 +744,7 @@ body.darkmode img[src$="Budgyrating25.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating25.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating25.png");
 }
 body.darkmode img[src$="Budgyrating3.png"] {
   display: inline-block;
@@ -752,7 +752,7 @@ body.darkmode img[src$="Budgyrating3.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating30.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating30.png");
 }
 body.darkmode img[src$="Budgyrating35.png"] {
   display: inline-block;
@@ -760,7 +760,7 @@ body.darkmode img[src$="Budgyrating35.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating35.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating35.png");
 }
 body.darkmode img[src$="Budgyrating4.png"] {
   display: inline-block;
@@ -768,7 +768,7 @@ body.darkmode img[src$="Budgyrating4.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating40.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating40.png");
 }
 body.darkmode img[src$="Budgyrating45.png"] {
   display: inline-block;
@@ -776,7 +776,7 @@ body.darkmode img[src$="Budgyrating45.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating45.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating45.png");
 }
 body.darkmode img[src$="Budgyrating5.png"] {
   display: inline-block;
@@ -784,7 +784,7 @@ body.darkmode img[src$="Budgyrating5.png"] {
   height: 47px;
   padding-left: 243px;
   box-sizing: border-box;
-  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating50.png");
+  background: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/ratings/Budgyrating50.png");
 }
 /* End Gamereview */
 
@@ -795,7 +795,7 @@ body.darkmode img[src="/templates/config/smillies/puh2.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/puh2_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/puh2_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/smile.gif"] {
   display: inline-block;
@@ -803,7 +803,7 @@ body.darkmode img[src="/templates/config/smillies/smile.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/smile_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/smile_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/nooo.gif"] {
   display: inline-block;
@@ -811,7 +811,7 @@ body.darkmode img[src="/templates/config/smillies/nooo.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/nooo_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/nooo_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/confused.gif"] {
   display: inline-block;
@@ -819,7 +819,7 @@ body.darkmode img[src="/templates/config/smillies/confused.gif"] {
   height: 15px;
   padding-left: 19px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/confused_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/confused_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/bloos.gif"] {
   display: inline-block;
@@ -827,7 +827,7 @@ body.darkmode img[src="/templates/config/smillies/bloos.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/bloos_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/bloos_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/shutup.gif"] {
   display: inline-block;
@@ -835,7 +835,7 @@ body.darkmode img[src="/templates/config/smillies/shutup.gif"] {
   height: 16px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/shutup_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/shutup_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/shiny.gif"] {
   display: inline-block;
@@ -843,7 +843,7 @@ body.darkmode img[src="/templates/config/smillies/shiny.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/shiny_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/shiny_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/devil.gif"] {
   display: inline-block;
@@ -851,7 +851,7 @@ body.darkmode img[src="/templates/config/smillies/devil.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/devil_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/devil_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/frown.gif"] {
   display: inline-block;
@@ -859,7 +859,7 @@ body.darkmode img[src="/templates/config/smillies/frown.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/frown_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/frown_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/coool.gif"] {
   display: inline-block;
@@ -867,7 +867,7 @@ body.darkmode img[src="/templates/config/smillies/coool.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/coool_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/coool_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/yes_new.gif"] {
   display: inline-block;
@@ -875,7 +875,7 @@ body.darkmode img[src="/templates/config/smillies/yes_new.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/yes_new_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/yes_new_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/pukey.gif"] {
   display: inline-block;
@@ -883,7 +883,7 @@ body.darkmode img[src="/templates/config/smillies/pukey.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/pukey_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/pukey_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/heart.gif"] {
   display: inline-block;
@@ -891,7 +891,7 @@ body.darkmode img[src="/templates/config/smillies/heart.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/heart_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/heart_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/yawnee.gif"] {
   display: inline-block;
@@ -899,7 +899,7 @@ body.darkmode img[src="/templates/config/smillies/yawnee.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/yawnee_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/yawnee_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/cry.gif"] {
   display: inline-block;
@@ -907,7 +907,7 @@ body.darkmode img[src="/templates/config/smillies/cry.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/cry_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/cry_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/loveit.gif"] {
   display: inline-block;
@@ -915,7 +915,7 @@ body.darkmode img[src="/templates/config/smillies/loveit.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/loveit_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/loveit_trans.gif");
 }
 body.darkmode img[src="/templates/config/smillies/sadley.gif"] {
   display: inline-block;
@@ -923,14 +923,14 @@ body.darkmode img[src="/templates/config/smillies/sadley.gif"] {
   height: 15px;
   padding-left: 15px;
   box-sizing: border-box;
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/sadley_trans.gif");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/emojis/sadley_trans.gif");
 }
 /* End Emojis */
 
 /* Darkmode colorschemes */
 /* Darkmode Rood */
 body.darkmode.darkmode-rood #logo a {
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-rood.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/logo/logo-darkmode-rood.png");
 }
 body.darkmode.darkmode-rood #consolemenu {
   background: linear-gradient(90deg, rgba(255, 0, 0, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
@@ -982,7 +982,7 @@ body.darkmode.darkmode-rood .gsc-results .gsc-cursor-box .gsc-cursor-current-pag
 
 /* Darkmode Paars */
 body.darkmode.darkmode-paars #logo a {
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-paars.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/logo/logo-darkmode-paars.png");
 }
 body.darkmode.darkmode-paars #consolemenu {
   background: linear-gradient(90deg, rgba(95, 28, 104, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
@@ -1034,7 +1034,7 @@ body.darkmode.darkmode-paars .gsc-results .gsc-cursor-box .gsc-cursor-current-pa
 
 /* Darkmode Groen */
 body.darkmode.darkmode-groen #logo a {
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-groen.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/logo/logo-darkmode-groen.png");
 }
 body.darkmode.darkmode-groen #consolemenu {
   background: linear-gradient(90deg, rgba(153, 204, 102, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
@@ -1086,7 +1086,7 @@ body.darkmode.darkmode-groen .gsc-results .gsc-cursor-box .gsc-cursor-current-pa
 
 /* Darkmode Blauw */
 body.darkmode.darkmode-blauw #logo a {
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-blauw.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/logo/logo-darkmode-blauw.png");
 }
 body.darkmode.darkmode-blauw #consolemenu {
   background: linear-gradient(90deg, rgba(41, 171, 226, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
@@ -1138,7 +1138,7 @@ body.darkmode.darkmode-blauw .gsc-results .gsc-cursor-box .gsc-cursor-current-pa
 
 /* Darkmode Grijs */
 body.darkmode.darkmode-lichtgrijs #logo a, body.darkmode.darkmode-donkergrijs #logo a {
-  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-grijs.png");
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/logo/logo-darkmode-grijs.png");
 }
 body.darkmode.darkmode-lichtgrijs #consolemenu, body.darkmode.darkmode-donkergrijs #consolemenu {
   background: linear-gradient(90deg, rgba(102, 102, 102, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
