@@ -1,0 +1,89 @@
+#home-laatstereactie-tabs {
+    li {
+        margin-right: 20px;
+    }
+}
+
+#profiel {
+    h1.online,
+    h1.offline {
+        color: $linkColor;
+        background: none;
+        position: relative;
+        padding-left: 20px;
+
+        &:before {
+            width: 12px;
+            height: 12px;
+            content: '';
+            position: absolute;
+            left: 0px;
+            top: 9px;
+            border-radius: 50%;
+        }
+    }
+
+    h1.online:before {
+        background: $userOnline;
+    }
+
+    h1.offline:before {
+        background: $userOffline;
+    }
+
+    #profiel-extra {
+        span {
+            color: $textColor;
+        }
+
+        img[src="/templates/images/layout/offline.gif"] {
+            @include replace-img(8px, 8px);
+            background: $userOffline;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        img[src="/templates/images/layout/online.gif"] {
+            @include replace-img(8px, 8px);
+            background: $userOnline;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+    }
+}
+
+#memberreview {
+    .gamereactie-content {
+        b {
+            color: $textColor !important;
+        }
+    }
+}
+
+// Messages
+#prijslijst {
+    #tbprijslijstpopulair {
+        tr:hover {
+            background: transparent !important;
+        }
+    }
+}
+
+// Wishlist
+form {
+    input[name="changewishlist"] {
+        background: $backgroundLight !important;
+        border: 1px solid $borderColorInput;
+        color: $textColor !important;
+        margin: 5px;
+        cursor: pointer;
+        text-shadow: none !important;
+        font-weight: normal !important;
+
+        &:hover {
+            color: $linkColor !important;
+        }
+    }
+}

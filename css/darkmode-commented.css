@@ -1,0 +1,1200 @@
+@charset "UTF-8";
+:root {
+  color-scheme: dark;
+}
+
+/* Generic */
+body.darkmode {
+  background: #121212;
+  color: #cdcdcd;
+}
+body.darkmode a,
+body.darkmode a:link,
+body.darkmode a.klein,
+body.darkmode .fa {
+  color: #efefef;
+}
+body.darkmode small {
+  color: #cdcdcd;
+}
+body.darkmode img {
+  filter: brightness(0.8) contrast(1.2);
+}
+body.darkmode input[type=text],
+body.darkmode input[type=edit],
+body.darkmode input[type=password],
+body.darkmode input[type=submit],
+body.darkmode input[type=reset],
+body.darkmode button,
+body.darkmode textarea,
+body.darkmode select {
+  background: #222;
+  color: #cdcdcd;
+  border: 1px solid #888;
+}
+body.darkmode input[type=submit],
+body.darkmode button {
+  cursor: pointer;
+}
+body.darkmode input[type=submit]:hover,
+body.darkmode button:hover {
+  color: #efefef;
+}
+/* End Generic */
+
+/* Tables */
+body.darkmode table thead {
+  background: transparent;
+}
+body.darkmode table .sorting,
+body.darkmode table .sorting_desc,
+body.darkmode table .sorting_asc {
+  background: transparent;
+}
+body.darkmode table .sorting_desc:after,
+body.darkmode table .sorting_asc:after {
+  content: "";
+  color: #cdcdcd;
+  font-family: "FontAwesome";
+  right: 2px;
+  position: absolute;
+}
+body.darkmode table .sorting_asc:after {
+  content: "";
+}
+body.darkmode table.table-shop .highlightedRow {
+  background: transparent !important;
+}
+/* End Tables */
+
+/* Layout */
+body.darkmode #header {
+  background: #333;
+  border-radius: 10px 10px 0 0;
+}
+body.darkmode #content {
+  background: #333;
+  border-color: transparent;
+}
+body.darkmode #footer {
+  background: #333;
+}
+body.darkmode #spelenlogo a img {
+  display: inline-block;
+  width: 155px;
+  height: 14px;
+  padding-left: 155px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/bgspelen-darkmode.png");
+}
+body.darkmode #searchresults {
+  background: #333;
+}
+body.darkmode #login .login-bottom a {
+  color: #efefef;
+}
+body.darkmode #login .login-bottom a:hover {
+  text-decoration: underline;
+}
+body.darkmode #consolemenu > ul {
+  display: grid;
+  grid-template-columns: 158px repeat(10, auto);
+}
+body.darkmode #consolemenu > ul > li {
+  border-left: none;
+  border-right: none;
+}
+body.darkmode #consolemenu > ul > li > a {
+  border-top: 0;
+  width: 100%;
+  padding: 17px 0 14px;
+  text-align: center;
+}
+body.darkmode #consolemenu #prijslijst {
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/console-menu-trans.png");
+}
+
+/* Header submenu */
+body.darkmode #menu {
+  background: linear-gradient(to bottom, #555, #333);
+  border-radius: 0 0 10px 10px;
+}
+body.darkmode #menu li a {
+  color: #cdcdcd;
+}
+body.darkmode #menu li a:hover,
+body.darkmode #menu li.active a,
+body.darkmode #menu li.active a:hover {
+  color: #efefef;
+}
+/* End Layout */
+
+/* Sidebar */
+body.darkmode .filter {
+  background: #555;
+}
+body.darkmode .filter div {
+  color: #cdcdcd;
+}
+body.darkmode .titel h1, body.darkmode .titel h2 {
+  margin-left: -10px;
+  font-size: 14px;
+}
+body.darkmode .titel h1,
+body.darkmode .titel h2,
+body.darkmode .tabtitel ul li a.current,
+body.darkmode .tabtitel ul li a.current:hover,
+body.darkmode #forum ul li a.current {
+  position: relative;
+  color: #efefef;
+  padding: 3px 0 0 1rem;
+  border-radius: 4px 0 0 0;
+  float: left;
+  height: 22px;
+  z-index: 10;
+}
+body.darkmode .titel h1:after,
+body.darkmode .titel h2:after,
+body.darkmode .tabtitel ul li a.current:after,
+body.darkmode .tabtitel ul li a.current:hover:after,
+body.darkmode #forum ul li a.current:after {
+  content: " ";
+  position: absolute;
+  right: -1rem;
+  top: 0;
+  width: 2rem;
+  height: 100%;
+  border-radius: 0 4px 0 0;
+  transform: skew(25deg);
+  z-index: -1;
+}
+body.darkmode .titel h1 span,
+body.darkmode .titel h2 span,
+body.darkmode .tabtitel ul li a.current span,
+body.darkmode .tabtitel ul li a.current:hover span,
+body.darkmode #forum ul li a.current span {
+  background: none;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+body.darkmode .itemrow {
+  background: none !important;
+  border-color: #555 !important;
+}
+/* Icon forumposts */
+body.darkmode ul.laatstegames li span.comments {
+  background: #555;
+}
+/* End Sidebar */
+
+/* Forum reacties/comments */
+body.darkmode .avatar a {
+  background: none;
+  border-color: transparent;
+}
+body.darkmode .gamereactie .spoiler:hover {
+  color: #cdcdcd;
+}
+body.darkmode .berichtfootertext {
+  float: right;
+}
+body.darkmode #game-formulier-content #game-reactie-form input {
+  background: #333;
+  color: #cdcdcd;
+  border: 1px solid #888;
+  border-radius: 3px;
+  cursor: pointer;
+}
+body.darkmode #game-formulier-content #game-reactie-form input:hover {
+  border-color: #cdcdcd;
+}
+body.darkmode #game-formulier-content #game-reactie-form .game-formulier-veld textarea {
+  background: #333;
+  color: #cdcdcd;
+}
+body.darkmode #game-formulier-content #game-reactie-form #game-reactie-submit {
+  background: linear-gradient(180deg, #555, #333);
+  font-weight: bold;
+}
+/* End Forum reacties/comments */
+
+/* Game info page */
+body.darkmode #game-info .game-cover.groot {
+  background: #333;
+  border-color: #888;
+}
+body.darkmode #game-info .game-cover.groot .zoomicon {
+  background: #121212;
+  width: 20px;
+  z-index: 1;
+}
+body.darkmode #game-info .game-cover.groot .zoomicon img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/zoom.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+}
+body.darkmode #game-info img[src="/images/Budgyrood.png"] {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding-left: 35px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/ratings.png");
+  background-position-y: -35px;
+  padding-left: 35px !important;
+  margin-left: 2px;
+}
+body.darkmode #game-info img[src="/images/Budgygrijs.png"] {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding-left: 35px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/ratings.png");
+  padding-left: 35px !important;
+  margin-left: 2px;
+}
+body.darkmode #game-info #ratingbox-wrapper a {
+  margin-left: 6px;
+}
+body.darkmode #game-info .rate_widget .ratings_stars {
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/ratings.png") no-repeat;
+}
+body.darkmode #game-info .rate_widget .ratings_stars.ratings_over, body.darkmode #game-info .rate_widget .ratings_stars.ratings_vote {
+  background-position-y: -35px;
+}
+body.darkmode #game-info #submitwishlistform {
+  background: #333;
+}
+/* Bevestiging toevoegen wishlist/collectie */
+body.darkmode .toevoegenwishlist,
+body.darkmode .toevoegencollectie {
+  background: transparent;
+  border: 3px solid #319d3f;
+}
+/* Upvote counter */
+body.darkmode .game-reactie-meta-options > a:first-child:not([href]) {
+  color: #319d3f;
+}
+body.darkmode .game-reactie-meta-options > a:first-child:not([href]) + span[style="color: black"] {
+  color: #cdcdcd !important;
+}
+body.darkmode .game-reactie-meta-options > a:first-child:not([href]) + span[style="color: green"] {
+  color: #319d3f !important;
+}
+/* End Upvote counter */
+/* Colorbox (Game info popup) */
+body.darkmode #colorbox #cboxWrapper {
+  border-radius: 5px;
+  background: linear-gradient(0deg, #333, #555);
+  box-shadow: inset 0 0 5px #121212;
+}
+body.darkmode #colorbox #cboxTopLeft,
+body.darkmode #colorbox #cboxTopCenter,
+body.darkmode #colorbox #cboxTopRight,
+body.darkmode #colorbox #cboxMiddleLeft,
+body.darkmode #colorbox #cboxContent,
+body.darkmode #colorbox #cboxMiddleRight,
+body.darkmode #colorbox #cboxBottomLeft,
+body.darkmode #colorbox #cboxBottomCenter,
+body.darkmode #colorbox #cboxBottomRight,
+body.darkmode #colorbox #volledigeimage {
+  background: transparent;
+}
+body.darkmode #colorbox #cboxClose {
+  background: none;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 24px;
+  height: 24px;
+  color: #cdcdcd;
+}
+body.darkmode #colorbox #cboxClose:hover {
+  color: #efefef;
+}
+body.darkmode #colorbox #cboxClose:before {
+  content: "×";
+  font-size: 3rem;
+  line-height: 14px;
+  position: absolute;
+  text-indent: 0;
+  left: 2px;
+  top: 5px;
+}
+/* End Colorbox */
+/* End Game Info */
+
+/* User profile page */
+/* Profiel */
+body.darkmode #home-laatstereactie-tabs li {
+  margin-right: 20px;
+}
+body.darkmode #profiel h1.online,
+body.darkmode #profiel h1.offline {
+  color: #efefef;
+  background: none;
+  position: relative;
+  padding-left: 20px;
+}
+body.darkmode #profiel h1.online:before,
+body.darkmode #profiel h1.offline:before {
+  width: 12px;
+  height: 12px;
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 9px;
+  border-radius: 50%;
+}
+body.darkmode #profiel h1.online:before {
+  background: #319d3f;
+}
+body.darkmode #profiel h1.offline:before {
+  background: #f00;
+}
+body.darkmode #profiel #profiel-extra span {
+  color: #cdcdcd;
+}
+body.darkmode #profiel #profiel-extra img[src="/templates/images/layout/offline.gif"] {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  background: #f00;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+body.darkmode #profiel #profiel-extra img[src="/templates/images/layout/online.gif"] {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  background: #319d3f;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+/* Member reviews */
+body.darkmode #memberreview .gamereactie-content b {
+  color: #cdcdcd !important;
+}
+/* Messages */
+body.darkmode #prijslijst #tbprijslijstpopulair tr:hover {
+  background: transparent !important;
+}
+/* Wishlist */
+body.darkmode form input[name=changewishlist] {
+  background: #555 !important;
+  border: 1px solid #888;
+  color: #cdcdcd !important;
+  margin: 5px;
+  cursor: pointer;
+  text-shadow: none !important;
+  font-weight: normal !important;
+}
+body.darkmode form input[name=changewishlist]:hover {
+  color: #efefef !important;
+}
+/* End User profile page */
+
+/* Shopsurvey */
+body.darkmode img[src="/afb/silverblauw_donker.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/zilverblauw-donker.png");
+}
+body.darkmode img[src="/afb/donkergroen.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/donkergroen.png");
+}
+body.darkmode img[src="/afb/lichtgroen.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/lichtgroen.png");
+}
+body.darkmode img[src="/afb/geel.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/geel.png");
+}
+body.darkmode img[src="/afb/oranje.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/oranje.png");
+}
+body.darkmode img[src="/afb/donkerrood.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/donkerrood.png");
+}
+body.darkmode img[src="/afb/empty.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/shopratings/empty.png");
+}
+body.darkmode #shopsurvey .shop-foto {
+  background: transparent;
+  border-color: #888;
+}
+body.darkmode #shopsurvey .shop-rating-row span,
+body.darkmode #shopsurvey .shop-info-row span {
+  color: #efefef;
+}
+body.darkmode #shopsurvey .shop-rating-button a {
+  width: 129px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #333;
+  border: 1px solid #888;
+  border-radius: 5px;
+  color: #efefef !important;
+  padding: 0;
+}
+body.darkmode #shopsurvey .ratingbox {
+  background: transparent;
+  border: 1px solid #888;
+}
+body.darkmode #shopsurvey .gamereactie-content b {
+  color: #efefef !important;
+}
+/* End Shopsurvey */
+
+/* Forumoverzicht */
+body.darkmode .list ul li.itemrow font {
+  color: #cdcdcd !important;
+}
+/* End Forumoverzicht */
+
+/* Google Search resultaten */
+body.darkmode .gsc-search-box .gsc-input {
+  background: #222 !important;
+  color: #cdcdcd !important;
+}
+body.darkmode .gsc-search-box td.gsc-input {
+  border: 1px solid #888 !important;
+}
+body.darkmode .gsc-search-box .gsc-input-box {
+  background: transparent;
+  border: none;
+}
+body.darkmode .gsc-search-box .gsib_a {
+  padding: 0;
+}
+body.darkmode .gsc-result-info {
+  color: #cdcdcd !important;
+}
+body.darkmode .gsc-control-cse {
+  background: transparent !important;
+  border-color: #888 !important;
+  color: #cdcdcd !important;
+}
+body.darkmode .gsc-result,
+body.darkmode .gsc-webResult,
+body.darkmode .gs-result,
+body.darkmode .gs-webResult,
+body.darkmode .gs-snippet {
+  border-color: transparent !important;
+  background: transparent !important;
+  color: #cdcdcd !important;
+}
+body.darkmode .gs-result a.gs-image {
+  border: none !important;
+}
+body.darkmode .gsc-results .gsc-cursor-box .gsc-cursor-page,
+body.darkmode .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  border: none !important;
+  background: transparent !important;
+  color: #efefef !important;
+}
+/* End Google Search resultaten */
+
+/* Memberlist */
+body.darkmode .paging_full_numbers .paginate_button {
+  background: #333;
+  border-color: #888;
+  color: #cdcdcd;
+}
+body.darkmode .paging_full_numbers .paginate_button:hover {
+  background: #333;
+  color: #efefef;
+  text-decoration: underline;
+}
+body.darkmode .paging_full_numbers .paginate_active {
+  background: #555;
+}
+body.darkmode table tr.color1 font[color=green],
+body.darkmode table tr.color2 font[color=green] {
+  color: #319d3f !important;
+}
+body.darkmode table tr.color1 font[color=red],
+body.darkmode table tr.color2 font[color=red] {
+  color: #f00 !important;
+}
+/* End Memberlist */
+
+/* Prijs Doorgeven popup */
+body.darkmode[bgcolor="#c8c8c8"] {
+  background: #333 !important;
+}
+body.darkmode[bgcolor="#c8c8c8"] form tr {
+  background: #333 !important;
+}
+/* End Prijs Doorgeven popup */
+
+/* Custom classes - these elements rely on classes not currently present in the code */
+/* Console menu */
+body.darkmode #consolemenu ul .consoleMenuXSX.sfHover a, body.darkmode #consolemenu ul .consoleMenuXSX.active > a, body.darkmode #consolemenu ul .consoleMenuXSX > a:hover,
+body.darkmode #consolemenu ul .consoleMenuXSX ul li a,
+body.darkmode #consolemenu ul .consoleMenuXOne.sfHover a,
+body.darkmode #consolemenu ul .consoleMenuXOne.active > a,
+body.darkmode #consolemenu ul .consoleMenuXOne > a:hover,
+body.darkmode #consolemenu ul .consoleMenuXOne ul li a {
+  background: linear-gradient(0deg, rgba(102, 144, 60, 0.5), #333), linear-gradient(90deg, #333, transparent);
+  text-shadow: 0px 1px 0px #222 !important;
+}
+body.darkmode #consolemenu ul .consoleMenuXSX ul li a,
+body.darkmode #consolemenu ul .consoleMenuXOne ul li a {
+  background: #66903c !important;
+  text-shadow: 0px 1px 0px #222;
+}
+body.darkmode #consolemenu ul .consoleMenuXSX ul li a:hover,
+body.darkmode #consolemenu ul .consoleMenuXOne ul li a:hover {
+  text-decoration: underline;
+}
+body.darkmode #consolemenu ul .consoleMenuPS5.sfHover a, body.darkmode #consolemenu ul .consoleMenuPS5.active > a, body.darkmode #consolemenu ul .consoleMenuPS5 > a:hover,
+body.darkmode #consolemenu ul .consoleMenuPS4.sfHover a,
+body.darkmode #consolemenu ul .consoleMenuPS4.active > a,
+body.darkmode #consolemenu ul .consoleMenuPS4 > a:hover {
+  background: linear-gradient(0deg, rgba(30, 123, 162, 0.5), #333), linear-gradient(90deg, #333, transparent);
+  text-shadow: 0px 1px 0px #222 !important;
+}
+body.darkmode #consolemenu ul .consoleMenuPS5 ul li a,
+body.darkmode #consolemenu ul .consoleMenuPS4 ul li a {
+  background: #1e7ba2 !important;
+  text-shadow: 0px 1px 0px #222;
+}
+body.darkmode #consolemenu ul .consoleMenuPS5 ul li a:hover,
+body.darkmode #consolemenu ul .consoleMenuPS4 ul li a:hover {
+  text-decoration: underline;
+}
+body.darkmode #consolemenu ul .consoleMenuNS.sfHover a, body.darkmode #consolemenu ul .consoleMenuNS.active > a, body.darkmode #consolemenu ul .consoleMenuNS > a:hover,
+body.darkmode #consolemenu ul .consoleMenuNS ul,
+body.darkmode #consolemenu ul .consoleMenu3DS.sfHover a,
+body.darkmode #consolemenu ul .consoleMenu3DS.active > a,
+body.darkmode #consolemenu ul .consoleMenu3DS > a:hover,
+body.darkmode #consolemenu ul .consoleMenu3DS ul,
+body.darkmode #consolemenu ul .consoleMenuPreorders.sfHover a,
+body.darkmode #consolemenu ul .consoleMenuPreorders.active > a,
+body.darkmode #consolemenu ul .consoleMenuPreorders > a:hover,
+body.darkmode #consolemenu ul .consoleMenuPreorders ul,
+body.darkmode #consolemenu ul .consoleMenuGuides.sfHover a,
+body.darkmode #consolemenu ul .consoleMenuGuides.active > a,
+body.darkmode #consolemenu ul .consoleMenuGuides > a:hover,
+body.darkmode #consolemenu ul .consoleMenuGuides ul,
+body.darkmode #consolemenu ul .consoleMenuMeer.sfHover a,
+body.darkmode #consolemenu ul .consoleMenuMeer.active > a,
+body.darkmode #consolemenu ul .consoleMenuMeer > a:hover,
+body.darkmode #consolemenu ul .consoleMenuMeer ul {
+  background: linear-gradient(0deg, rgba(147, 0, 0, 0.5), #333), linear-gradient(90deg, #333, transparent);
+  text-shadow: 0px 1px 0px #222 !important;
+}
+body.darkmode #consolemenu ul .consoleMenuNS ul li a,
+body.darkmode #consolemenu ul .consoleMenu3DS ul li a,
+body.darkmode #consolemenu ul .consoleMenuPreorders ul li a,
+body.darkmode #consolemenu ul .consoleMenuGuides ul li a,
+body.darkmode #consolemenu ul .consoleMenuMeer ul li a {
+  background: #930000 !important;
+  text-shadow: 0px 1px 0px #222;
+}
+body.darkmode #consolemenu ul .consoleMenuNS ul li a:hover,
+body.darkmode #consolemenu ul .consoleMenu3DS ul li a:hover,
+body.darkmode #consolemenu ul .consoleMenuPreorders ul li a:hover,
+body.darkmode #consolemenu ul .consoleMenuGuides ul li a:hover,
+body.darkmode #consolemenu ul .consoleMenuMeer ul li a:hover {
+  text-decoration: underline;
+}
+body.darkmode #consolemenu ul .consoleMenuPC.sfHover a, body.darkmode #consolemenu ul .consoleMenuPC.active > a, body.darkmode #consolemenu ul .consoleMenuPC > a:hover,
+body.darkmode #consolemenu ul .consoleMenuPC ul {
+  background: linear-gradient(0deg, rgba(68, 68, 68, 0.5), #333), linear-gradient(90deg, #333, transparent);
+  text-shadow: 0px 1px 0px #222 !important;
+}
+body.darkmode #consolemenu ul .consoleMenuPC ul li a {
+  background: #444 !important;
+  text-shadow: 0px 1px 0px #222;
+}
+body.darkmode #consolemenu ul .consoleMenuPC ul li a:hover {
+  text-decoration: underline;
+}
+/* Whitespace gutter above footer */
+body.darkmode .whitespaceAboveFooter {
+  display: none;
+}
+/* User is online/offline (Comments/Reacties) */
+body.darkmode .userOnlineImg,
+body.darkmode .userOfflineImg {
+  filter: opacity(0);
+  position: relative;
+  content: " ";
+}
+body.darkmode .commentUsername {
+  position: relative;
+}
+body.darkmode .commentUsername:before {
+  width: 8px;
+  height: 8px;
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 3px;
+  border-radius: 50%;
+}
+body.darkmode .commentUsernameOnline:before {
+  background: #319d3f;
+}
+body.darkmode .commentUsernameOffline:before {
+  background: #f00;
+}
+/* Quotes in comments/reacties */
+body.darkmode .commentQuoteWrapper,
+body.darkmode .quote1 {
+  margin: 0;
+  background: none !important;
+}
+body.darkmode .commentQuote,
+body.darkmode .quote2 {
+  background: #222 !important;
+  padding: 10px;
+}
+/* Comment/reactie signature */
+body.darkmode .commentSignature {
+  color: #909090 !important;
+}
+/* Logout button */
+body.darkmode .logoutButton {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/sign-out.svg");
+}
+
+/* Game Review (ratings) */
+body.darkmode img[src$="Budgyrating1.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating10.png");
+}
+body.darkmode img[src$="Budgyrating15.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating15.png");
+}
+body.darkmode img[src$="Budgyrating2.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating20.png");
+}
+body.darkmode img[src$="Budgyrating25.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating25.png");
+}
+body.darkmode img[src$="Budgyrating3.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating30.png");
+}
+body.darkmode img[src$="Budgyrating35.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating35.png");
+}
+body.darkmode img[src$="Budgyrating4.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating40.png");
+}
+body.darkmode img[src$="Budgyrating45.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating45.png");
+}
+body.darkmode img[src$="Budgyrating5.png"] {
+  display: inline-block;
+  width: 243px;
+  height: 47px;
+  padding-left: 243px;
+  box-sizing: border-box;
+  background: url("https://github.com/mrpapercut/bgplus/raw/main/images/ratings/Budgyrating50.png");
+}
+/* End Gamereview */
+
+/* Emojis */
+body.darkmode img[src="/templates/config/smillies/puh2.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/puh2_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/smile.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/smile_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/nooo.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/nooo_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/confused.gif"] {
+  display: inline-block;
+  width: 19px;
+  height: 15px;
+  padding-left: 19px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/confused_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/bloos.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/bloos_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/shutup.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/shutup_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/shiny.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/shiny_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/devil.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/devil_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/frown.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/frown_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/coool.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/coool_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/yes_new.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/yes_new_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/pukey.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/pukey_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/heart.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/heart_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/yawnee.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/yawnee_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/cry.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/cry_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/loveit.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/loveit_trans.gif");
+}
+body.darkmode img[src="/templates/config/smillies/sadley.gif"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/emojis/sadley_trans.gif");
+}
+/* End Emojis */
+
+/* Darkmode colorschemes */
+/* Darkmode Rood */
+body.darkmode.darkmode-rood #logo a {
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-rood.png");
+}
+body.darkmode.darkmode-rood #consolemenu {
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
+}
+body.darkmode.darkmode-rood h2.tabheader {
+  background: #fcc;
+  color: #930000;
+}
+body.darkmode.darkmode-rood .titel h1,
+body.darkmode.darkmode-rood .titel h2,
+body.darkmode.darkmode-rood .tabtitel ul li a.current,
+body.darkmode.darkmode-rood .tabtitel ul li a.current:hover,
+body.darkmode.darkmode-rood #forum ul li a.current {
+  background: #930000;
+  background: linear-gradient(180deg, #ff0000 0%, #930000 100%);
+}
+body.darkmode.darkmode-rood .titel h1:after,
+body.darkmode.darkmode-rood .titel h2:after,
+body.darkmode.darkmode-rood .tabtitel ul li a.current:after,
+body.darkmode.darkmode-rood .tabtitel ul li a.current:hover:after,
+body.darkmode.darkmode-rood #forum ul li a.current:after {
+  background: #930000;
+  background: linear-gradient(180deg, #ff0000 0%, #930000 100%);
+}
+body.darkmode.darkmode-rood .tabtitel,
+body.darkmode.darkmode-rood .titel,
+body.darkmode.darkmode-rood .gamereactie {
+  border-bottom: 1px solid #930000;
+}
+body.darkmode.darkmode-rood #game-formulier-content {
+  border: 1px solid #930000;
+}
+body.darkmode.darkmode-rood #game-formulier-content #game-reactie-submit:hover {
+  border-color: #930000;
+}
+body.darkmode.darkmode-rood .coloredb {
+  color: #ff0000;
+}
+body.darkmode.darkmode-rood .wishicon, body.darkmode.darkmode-rood .collicon {
+  background: #930000;
+  box-shadow: 0px 4px 0px #121212;
+}
+body.darkmode.darkmode-rood .wishicon:active, body.darkmode.darkmode-rood .collicon:active {
+  box-shadow: 0px 3px 0px #121212;
+}
+body.darkmode.darkmode-rood .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: #ff0000 !important;
+}
+
+/* Darkmode Paars */
+body.darkmode.darkmode-paars #logo a {
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-paars.png");
+}
+body.darkmode.darkmode-paars #consolemenu {
+  background: linear-gradient(90deg, rgba(95, 28, 104, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
+}
+body.darkmode.darkmode-paars h2.tabheader {
+  background: #9a42a6;
+  color: #6d2a76;
+}
+body.darkmode.darkmode-paars .titel h1,
+body.darkmode.darkmode-paars .titel h2,
+body.darkmode.darkmode-paars .tabtitel ul li a.current,
+body.darkmode.darkmode-paars .tabtitel ul li a.current:hover,
+body.darkmode.darkmode-paars #forum ul li a.current {
+  background: #6d2a76;
+  background: linear-gradient(180deg, #5f1c68 0%, #6d2a76 100%);
+}
+body.darkmode.darkmode-paars .titel h1:after,
+body.darkmode.darkmode-paars .titel h2:after,
+body.darkmode.darkmode-paars .tabtitel ul li a.current:after,
+body.darkmode.darkmode-paars .tabtitel ul li a.current:hover:after,
+body.darkmode.darkmode-paars #forum ul li a.current:after {
+  background: #6d2a76;
+  background: linear-gradient(180deg, #5f1c68 0%, #6d2a76 100%);
+}
+body.darkmode.darkmode-paars .tabtitel,
+body.darkmode.darkmode-paars .titel,
+body.darkmode.darkmode-paars .gamereactie {
+  border-bottom: 1px solid #6d2a76;
+}
+body.darkmode.darkmode-paars #game-formulier-content {
+  border: 1px solid #6d2a76;
+}
+body.darkmode.darkmode-paars #game-formulier-content #game-reactie-submit:hover {
+  border-color: #6d2a76;
+}
+body.darkmode.darkmode-paars .coloredb {
+  color: #5f1c68;
+}
+body.darkmode.darkmode-paars .wishicon, body.darkmode.darkmode-paars .collicon {
+  background: #6d2a76;
+  box-shadow: 0px 4px 0px #121212;
+}
+body.darkmode.darkmode-paars .wishicon:active, body.darkmode.darkmode-paars .collicon:active {
+  box-shadow: 0px 3px 0px #121212;
+}
+body.darkmode.darkmode-paars .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: #5f1c68 !important;
+}
+
+/* Darkmode Groen */
+body.darkmode.darkmode-groen #logo a {
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-groen.png");
+}
+body.darkmode.darkmode-groen #consolemenu {
+  background: linear-gradient(90deg, rgba(153, 204, 102, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
+}
+body.darkmode.darkmode-groen h2.tabheader {
+  background: #cad8bb;
+  color: #66903c;
+}
+body.darkmode.darkmode-groen .titel h1,
+body.darkmode.darkmode-groen .titel h2,
+body.darkmode.darkmode-groen .tabtitel ul li a.current,
+body.darkmode.darkmode-groen .tabtitel ul li a.current:hover,
+body.darkmode.darkmode-groen #forum ul li a.current {
+  background: #66903c;
+  background: linear-gradient(180deg, #99cc66 0%, #66903c 100%);
+}
+body.darkmode.darkmode-groen .titel h1:after,
+body.darkmode.darkmode-groen .titel h2:after,
+body.darkmode.darkmode-groen .tabtitel ul li a.current:after,
+body.darkmode.darkmode-groen .tabtitel ul li a.current:hover:after,
+body.darkmode.darkmode-groen #forum ul li a.current:after {
+  background: #66903c;
+  background: linear-gradient(180deg, #99cc66 0%, #66903c 100%);
+}
+body.darkmode.darkmode-groen .tabtitel,
+body.darkmode.darkmode-groen .titel,
+body.darkmode.darkmode-groen .gamereactie {
+  border-bottom: 1px solid #66903c;
+}
+body.darkmode.darkmode-groen #game-formulier-content {
+  border: 1px solid #66903c;
+}
+body.darkmode.darkmode-groen #game-formulier-content #game-reactie-submit:hover {
+  border-color: #66903c;
+}
+body.darkmode.darkmode-groen .coloredb {
+  color: #99cc66;
+}
+body.darkmode.darkmode-groen .wishicon, body.darkmode.darkmode-groen .collicon {
+  background: #66903c;
+  box-shadow: 0px 4px 0px #121212;
+}
+body.darkmode.darkmode-groen .wishicon:active, body.darkmode.darkmode-groen .collicon:active {
+  box-shadow: 0px 3px 0px #121212;
+}
+body.darkmode.darkmode-groen .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: #99cc66 !important;
+}
+
+/* Darkmode Blauw */
+body.darkmode.darkmode-blauw #logo a {
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-blauw.png");
+}
+body.darkmode.darkmode-blauw #consolemenu {
+  background: linear-gradient(90deg, rgba(41, 171, 226, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
+}
+body.darkmode.darkmode-blauw h2.tabheader {
+  background: #d4eef9;
+  color: #1e7ba2;
+}
+body.darkmode.darkmode-blauw .titel h1,
+body.darkmode.darkmode-blauw .titel h2,
+body.darkmode.darkmode-blauw .tabtitel ul li a.current,
+body.darkmode.darkmode-blauw .tabtitel ul li a.current:hover,
+body.darkmode.darkmode-blauw #forum ul li a.current {
+  background: #1e7ba2;
+  background: linear-gradient(180deg, #29abe2 0%, #1e7ba2 100%);
+}
+body.darkmode.darkmode-blauw .titel h1:after,
+body.darkmode.darkmode-blauw .titel h2:after,
+body.darkmode.darkmode-blauw .tabtitel ul li a.current:after,
+body.darkmode.darkmode-blauw .tabtitel ul li a.current:hover:after,
+body.darkmode.darkmode-blauw #forum ul li a.current:after {
+  background: #1e7ba2;
+  background: linear-gradient(180deg, #29abe2 0%, #1e7ba2 100%);
+}
+body.darkmode.darkmode-blauw .tabtitel,
+body.darkmode.darkmode-blauw .titel,
+body.darkmode.darkmode-blauw .gamereactie {
+  border-bottom: 1px solid #1e7ba2;
+}
+body.darkmode.darkmode-blauw #game-formulier-content {
+  border: 1px solid #1e7ba2;
+}
+body.darkmode.darkmode-blauw #game-formulier-content #game-reactie-submit:hover {
+  border-color: #1e7ba2;
+}
+body.darkmode.darkmode-blauw .coloredb {
+  color: #29abe2;
+}
+body.darkmode.darkmode-blauw .wishicon, body.darkmode.darkmode-blauw .collicon {
+  background: #1e7ba2;
+  box-shadow: 0px 4px 0px #121212;
+}
+body.darkmode.darkmode-blauw .wishicon:active, body.darkmode.darkmode-blauw .collicon:active {
+  box-shadow: 0px 3px 0px #121212;
+}
+body.darkmode.darkmode-blauw .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: #29abe2 !important;
+}
+
+/* Darkmode Grijs */
+body.darkmode.darkmode-lichtgrijs #logo a, body.darkmode.darkmode-donkergrijs #logo a {
+  background-image: url("https://github.com/mrpapercut/bgplus/raw/main/images/logo/logo-darkmode-grijs.png");
+}
+body.darkmode.darkmode-lichtgrijs #consolemenu, body.darkmode.darkmode-donkergrijs #consolemenu {
+  background: linear-gradient(90deg, rgba(102, 102, 102, 0.5) 0%, #333 18%), linear-gradient(180deg, #333, #222);
+}
+body.darkmode.darkmode-lichtgrijs h2.tabheader, body.darkmode.darkmode-donkergrijs h2.tabheader {
+  background: #888;
+  color: #444;
+}
+body.darkmode.darkmode-lichtgrijs .titel h1,
+body.darkmode.darkmode-lichtgrijs .titel h2,
+body.darkmode.darkmode-lichtgrijs .tabtitel ul li a.current,
+body.darkmode.darkmode-lichtgrijs .tabtitel ul li a.current:hover,
+body.darkmode.darkmode-lichtgrijs #forum ul li a.current, body.darkmode.darkmode-donkergrijs .titel h1,
+body.darkmode.darkmode-donkergrijs .titel h2,
+body.darkmode.darkmode-donkergrijs .tabtitel ul li a.current,
+body.darkmode.darkmode-donkergrijs .tabtitel ul li a.current:hover,
+body.darkmode.darkmode-donkergrijs #forum ul li a.current {
+  background: #444;
+  background: linear-gradient(180deg, #666 0%, #444 100%);
+}
+body.darkmode.darkmode-lichtgrijs .titel h1:after,
+body.darkmode.darkmode-lichtgrijs .titel h2:after,
+body.darkmode.darkmode-lichtgrijs .tabtitel ul li a.current:after,
+body.darkmode.darkmode-lichtgrijs .tabtitel ul li a.current:hover:after,
+body.darkmode.darkmode-lichtgrijs #forum ul li a.current:after, body.darkmode.darkmode-donkergrijs .titel h1:after,
+body.darkmode.darkmode-donkergrijs .titel h2:after,
+body.darkmode.darkmode-donkergrijs .tabtitel ul li a.current:after,
+body.darkmode.darkmode-donkergrijs .tabtitel ul li a.current:hover:after,
+body.darkmode.darkmode-donkergrijs #forum ul li a.current:after {
+  background: #444;
+  background: linear-gradient(180deg, #666 0%, #444 100%);
+}
+body.darkmode.darkmode-lichtgrijs .tabtitel,
+body.darkmode.darkmode-lichtgrijs .titel,
+body.darkmode.darkmode-lichtgrijs .gamereactie, body.darkmode.darkmode-donkergrijs .tabtitel,
+body.darkmode.darkmode-donkergrijs .titel,
+body.darkmode.darkmode-donkergrijs .gamereactie {
+  border-bottom: 1px solid #444;
+}
+body.darkmode.darkmode-lichtgrijs #game-formulier-content, body.darkmode.darkmode-donkergrijs #game-formulier-content {
+  border: 1px solid #444;
+}
+body.darkmode.darkmode-lichtgrijs #game-formulier-content #game-reactie-submit:hover, body.darkmode.darkmode-donkergrijs #game-formulier-content #game-reactie-submit:hover {
+  border-color: #444;
+}
+body.darkmode.darkmode-lichtgrijs .coloredb, body.darkmode.darkmode-donkergrijs .coloredb {
+  color: #666;
+}
+body.darkmode.darkmode-lichtgrijs .wishicon, body.darkmode.darkmode-lichtgrijs .collicon, body.darkmode.darkmode-donkergrijs .wishicon, body.darkmode.darkmode-donkergrijs .collicon {
+  background: #444;
+  box-shadow: 0px 4px 0px #121212;
+}
+body.darkmode.darkmode-lichtgrijs .wishicon:active, body.darkmode.darkmode-lichtgrijs .collicon:active, body.darkmode.darkmode-donkergrijs .wishicon:active, body.darkmode.darkmode-donkergrijs .collicon:active {
+  box-shadow: 0px 3px 0px #121212;
+}
+body.darkmode.darkmode-lichtgrijs .gsc-results .gsc-cursor-box .gsc-cursor-current-page, body.darkmode.darkmode-donkergrijs .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: #666 !important;
+}
+/* End Darkmode colorschemes */

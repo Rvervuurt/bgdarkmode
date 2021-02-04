@@ -1,0 +1,67 @@
+@mixin replace-img($width, $height) {
+    display: inline-block;
+    width: $width;
+    height: $height;
+    padding-left: $width;
+    box-sizing: border-box;
+}
+
+@mixin color-theme($color, $colorLight, $colorDark, $colorName) {
+    #logo a {
+        background-image: url('#{$imgPrefix}/images/logo/logo-darkmode-#{$colorName}.png');
+    }
+
+    #consolemenu {
+        background: linear-gradient(90deg, rgba($color, 0.5) 0%, $backgroundElements 18%), linear-gradient(180deg, $backgroundElements, $backgroundInput);
+    }
+
+    h2.tabheader {
+        background: $colorLight;
+        color: $colorDark;
+    }
+
+    .titel h1,
+    .titel h2,
+    .tabtitel ul li a.current,
+    .tabtitel ul li a.current:hover,
+    #forum ul li a.current {
+        background: $colorDark;
+        background: linear-gradient(180deg, $color 0%, $colorDark 100%);
+
+        &:after {
+            background: $colorDark;
+            background: linear-gradient(180deg, $color 0%, $colorDark 100%);
+        }
+    }
+
+    .tabtitel,
+    .titel,
+    .gamereactie {
+        border-bottom: 1px solid $colorDark;
+    }
+
+    #game-formulier-content {
+        border: 1px solid $colorDark;
+
+        #game-reactie-submit:hover {
+            border-color: $colorDark;
+        }
+    }
+
+    .coloredb {
+        color: $color;
+    }
+
+    .wishicon, .collicon {
+        background: $colorDark;
+        box-shadow: 0px 4px 0px $backgroundDark;
+    }
+
+    .wishicon:active, .collicon:active {
+        box-shadow: 0px 3px 0px $backgroundDark;
+    }
+
+    .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+        color: $color !important;
+    }
+}

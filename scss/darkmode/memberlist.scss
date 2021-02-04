@@ -1,0 +1,28 @@
+.paging_full_numbers {
+    .paginate_button {
+        background: $backgroundElements;
+        border-color: $borderColorInput;
+        color: $textColor;
+
+        &:hover {
+            background: $backgroundElements;
+            color: $linkColor;
+            text-decoration: underline;
+        }
+    }
+
+    .paginate_active {
+        background: $backgroundLight;
+    }
+}
+
+table tr.color1,
+table tr.color2 {
+    font[color="green"] {
+        color: $userOnline !important;
+    }
+
+    font[color="red"] {
+        color: $userOffline !important;
+    }
+}

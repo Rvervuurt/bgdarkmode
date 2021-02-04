@@ -1,0 +1,138 @@
+/* Layout */
+#header {
+    background: $backgroundElements;
+    border-radius: 10px 10px 0 0;
+}
+
+#content {
+    background: $backgroundElements;
+    border-color: transparent;
+}
+
+#footer {
+    background: $backgroundElements;
+}
+
+/** Header **/
+// Budgetspelen logo
+#spelenlogo {
+    a img {
+        @include replace-img(155px, 14px);
+        background-image: url('#{$imgPrefix}/images/bgspelen-darkmode.png');
+    }
+}
+
+#searchresults {
+    background: $backgroundElements;
+}
+
+#login {
+    .login-bottom a {
+        color: $linkColor;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+#consolemenu {
+    & > ul {
+        display: grid;
+        grid-template-columns: 158px repeat(10, auto);
+
+        & > li {
+            border-left: none;
+            border-right: none;
+
+            & > a {
+                border-top: 0;
+                width: 100%;
+                padding: 17px 0 14px;
+                text-align: center;
+            }
+        }
+    }
+
+    #prijslijst {
+        background: url('#{$imgPrefix}/images/console-menu-trans.png');
+    }
+}
+
+#menu {
+    background: linear-gradient(to bottom, $backgroundLight, $backgroundElements);
+    border-radius: 0 0 10px 10px;
+
+    li {
+        a {
+            color: $textColor;
+        }
+
+        a:hover,
+        &.active a,
+        &.active a:hover {
+            color: $linkColor;
+        }
+    }
+}
+
+/** Sidebar **/
+// Top of sidebar-elements
+.filter {
+    background: $backgroundLight;
+
+    div {
+        color: $textColor;
+    }
+}
+
+.titel {
+    h1, h2 {
+        margin-left: -10px;
+        font-size: 14px;
+    }
+}
+
+.titel h1,
+.titel h2,
+.tabtitel ul li a.current,
+.tabtitel ul li a.current:hover,
+#forum ul li a.current {
+    position: relative;
+    color: $linkColor;
+    padding: 3px 0 0 1rem;
+    border-radius: 4px 0 0 0;
+    float: left;
+    height: 22px;
+    z-index: 10;
+
+    &:after {
+        content: ' ';
+        position: absolute;
+        right: -1rem;
+        top: 0;
+        width: 2rem;
+        height: 100%;
+        border-radius: 0 4px 0 0;
+        transform: skew(25deg);
+        z-index: -1;
+    }
+
+    span {
+        background: none;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+    }
+}
+
+.itemrow {
+    background: none !important;
+    border-color: $backgroundLight !important;
+}
+
+// Icon forum-posts
+ul.laatstegames li span.comments {
+    background: $backgroundLight;
+}
+/** End Sidebar **/

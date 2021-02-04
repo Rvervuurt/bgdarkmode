@@ -1,0 +1,84 @@
+img[src="/templates/config/smillies/puh2.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/puh2_trans.gif');
+}
+
+img[src="/templates/config/smillies/smile.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/smile_trans.gif');
+}
+
+img[src="/templates/config/smillies/nooo.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/nooo_trans.gif');
+}
+
+img[src="/templates/config/smillies/confused.gif"] {
+    @include replace-img(19px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/confused_trans.gif');
+}
+
+img[src="/templates/config/smillies/bloos.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/bloos_trans.gif');
+}
+
+img[src="/templates/config/smillies/shutup.gif"] {
+    @include replace-img(15px, 16px);
+    background-image: url('#{$imgPrefix}/images/emojis/shutup_trans.gif');
+}
+
+img[src="/templates/config/smillies/shiny.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/shiny_trans.gif');
+}
+
+img[src="/templates/config/smillies/devil.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/devil_trans.gif');
+}
+
+img[src="/templates/config/smillies/frown.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/frown_trans.gif');
+}
+
+img[src="/templates/config/smillies/coool.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/coool_trans.gif');
+}
+
+img[src="/templates/config/smillies/yes_new.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/yes_new_trans.gif');
+}
+
+img[src="/templates/config/smillies/pukey.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/pukey_trans.gif');
+}
+
+img[src="/templates/config/smillies/heart.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/heart_trans.gif');
+}
+
+img[src="/templates/config/smillies/yawnee.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/yawnee_trans.gif');
+}
+
+img[src="/templates/config/smillies/cry.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/cry_trans.gif');
+}
+
+img[src="/templates/config/smillies/loveit.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/loveit_trans.gif');
+}
+
+img[src="/templates/config/smillies/sadley.gif"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/emojis/sadley_trans.gif');
+}

@@ -1,0 +1,44 @@
+img[src$="Budgyrating1.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating10.png');
+}
+
+img[src$="Budgyrating15.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating15.png');
+}
+
+img[src$="Budgyrating2.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating20.png');
+}
+
+img[src$="Budgyrating25.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating25.png');
+}
+
+img[src$="Budgyrating3.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating30.png');
+}
+
+img[src$="Budgyrating35.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating35.png');
+}
+
+img[src$="Budgyrating4.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating40.png');
+}
+
+img[src$="Budgyrating45.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating45.png');
+}
+
+img[src$="Budgyrating5.png"] {
+    @include replace-img(243px, 47px);
+    background: url('#{$imgPrefix}/images/ratings/Budgyrating50.png');
+}

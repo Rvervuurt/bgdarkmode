@@ -1,0 +1,75 @@
+/* Generic */
+& {
+    background: $backgroundDark;
+    color: $textColor;
+
+    a,
+    a:link,
+    a.klein,
+    .fa {
+        color: $linkColor;
+    }
+
+    small {
+        color: $textColor;
+    }
+
+    img {
+        filter: brightness(.8) contrast(1.2);
+    }
+
+    input[type="text"],
+    input[type="edit"],
+    input[type="password"],
+    input[type="submit"],
+    input[type="reset"],
+    button,
+    textarea,
+    select {
+        background: $backgroundInput;
+        color: $textColor;
+        border: 1px solid $borderColorInput;
+    }
+
+    input[type="submit"],
+    button {
+        cursor: pointer;
+
+        &:hover {
+            color: $linkColor;
+        }
+    }
+
+    /** Tables **/
+    table {
+        thead {
+            background: transparent;
+        }
+
+        .sorting,
+        .sorting_desc,
+        .sorting_asc {
+            background: transparent;
+        }
+
+        .sorting_desc:after,
+        .sorting_asc:after {
+            content: '\f107';
+            color: $textColor;
+            font-family: 'FontAwesome';
+            right: 2px;
+            position: absolute;
+        }
+
+        .sorting_asc:after {
+            content: '\f106';
+        }
+
+        // Found on Game Review pages
+        &.table-shop {
+            .highlightedRow {
+                background: transparent !important;
+            }
+        }
+    }
+}

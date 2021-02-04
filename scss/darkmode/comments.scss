@@ -1,0 +1,47 @@
+/** Comments **/
+.avatar a {
+    background: none;
+    border-color: transparent;
+}
+
+.gamereactie {
+    .spoiler:hover {
+        color: $textColor;
+    }
+}
+
+.berichtfootertext {
+    float: right;
+}
+
+#game-formulier-content {
+    #game-reactie-form {
+        // Buttons for Bold, Underline, Italic etc.
+        input {
+            background: $backgroundElements;
+            color: $textColor;
+            border: 1px solid $borderColorInput;
+            border-radius: 3px;
+            cursor: pointer;
+
+            &:hover {
+                border-color: $textColor;
+            }
+        }
+
+        // Comment textarea
+        .game-formulier-veld {
+            textarea {
+                background: $backgroundElements;
+                color: $textColor;
+            }
+        }
+
+        // Comment submit button
+        #game-reactie-submit {
+            background: linear-gradient(180deg, $backgroundLight, $backgroundElements);
+            font-weight: bold;
+        }
+    }
+}
+/** End comments **/

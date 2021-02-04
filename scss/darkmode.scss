@@ -1,0 +1,24 @@
+:root {
+    color-scheme: dark;
+}
+
+$imgPrefix: 'https://github.com/mrpapercut/bgdarkmode/raw/main';
+
+body.darkmode {
+    @import 'darkmode/mixins';
+    @import 'darkmode/colors';
+    @import 'darkmode/generic';
+    @import 'darkmode/layout';
+    @import 'darkmode/comments';
+    @import 'darkmode/customclasses';
+    @import 'darkmode/gameinfo';
+    @import 'darkmode/userprofile';
+    @import 'darkmode/shopsurvey';
+    @import 'darkmode/forum';
+    @import 'darkmode/googlesearch';
+    @import 'darkmode/memberlist';
+    @import 'darkmode/prijsdoorgeven';
+    @import 'darkmode/gamereview';
+    @import 'darkmode/emojis';
+    @import 'darkmode/colortheme';
+}

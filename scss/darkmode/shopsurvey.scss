@@ -1,0 +1,74 @@
+
+img[src="/afb/silverblauw_donker.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/zilverblauw-donker.png');
+}
+
+img[src="/afb/donkergroen.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/donkergroen.png');
+}
+
+img[src="/afb/lichtgroen.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/lichtgroen.png');
+}
+
+img[src="/afb/geel.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/geel.png');
+}
+
+img[src="/afb/oranje.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/oranje.png');
+}
+
+img[src="/afb/donkerrood.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/donkerrood.png');
+}
+
+img[src="/afb/empty.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/empty.png');
+}
+
+#shopsurvey {
+    .shop-foto {
+        background: transparent;
+        border-color: $borderColorInput;
+    }
+
+    .shop-rating-row,
+    .shop-info-row {
+        span {
+            color: $linkColor;
+        }
+    }
+
+    .shop-rating-button {
+        a {
+            width: 129px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            background: $backgroundElements;
+            border: 1px solid $borderColorInput;
+            border-radius: 5px;
+            color: $linkColor !important;
+            padding: 0;
+        }
+    }
+
+    .ratingbox {
+        background: transparent;
+        border: 1px solid $borderColorInput;
+    }
+
+    .gamereactie-content {
+        b {
+            color: $linkColor !important;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+#game-info {
+    .game-cover.groot {
+        background: $backgroundElements;
+        border-color: $borderColorInput;
+
+        .zoomicon {
+            background: $backgroundDark;
+            width: 20px;
+            z-index: 1;
+
+            img {
+                @include replace-img(20px, 20px);
+                background-image: url('#{$imgPrefix}/images/zoom.svg');
+                background-repeat: no-repeat;
+                width: 16px;
+                height: 16px;
+                margin: 2px;
+            }
+        }
+    }
+
+    img[src="/images/Budgyrood.png"] {
+        @include replace-img(35px, 35px);
+        background-image: url('#{$imgPrefix}/images/ratings/ratings.png');
+        background-position-y: -35px;
+        padding-left: 35px !important;
+        margin-left: 2px;
+    }
+
+    img[src="/images/Budgygrijs.png"] {
+        @include replace-img(35px, 35px);
+        background-image: url('#{$imgPrefix}/images/ratings/ratings.png');
+        padding-left: 35px !important;
+        margin-left: 2px;
+    }
+
+    #ratingbox-wrapper {
+        a {
+            margin-left: 6px;
+        }
+    }
+
+    .rate_widget {
+        .ratings_stars {
+            background: url('#{$imgPrefix}/images/ratings/ratings.png') no-repeat;
+
+            &.ratings_over,
+            &.ratings_vote {
+                background-position-y: -35px;
+            }
+        }
+    }
+
+    #submitwishlistform {
+        background: $backgroundElements;
+    }
+}
+
+// Bevestiging toevoegen wishlist/collectie
+.toevoegenwishlist,
+.toevoegencollectie {
+    background: transparent;
+    border: 3px solid $greenText;
+}
+
+// Upvote counter
+.game-reactie-meta-options {
+    & > a:first-child:not([href]) {
+        color: $greenText;
+
+        & + span[style="color: black"] {
+            color: $textColor !important;
+        }
+
+        & + span[style="color: green"] {
+            color: $greenText !important;
+        }
+    }
+}
+
+// Game-info popup
+#colorbox {
+    #cboxWrapper {
+        border-radius: 5px;
+        background: linear-gradient(0deg, $backgroundElements, $backgroundLight);
+        box-shadow: inset 0 0 5px $backgroundDark;
+    }
+
+    #cboxTopLeft,
+    #cboxTopCenter,
+    #cboxTopRight,
+    #cboxMiddleLeft,
+    #cboxContent,
+    #cboxMiddleRight,
+    #cboxBottomLeft,
+    #cboxBottomCenter,
+    #cboxBottomRight,
+    #volledigeimage {
+        background: transparent;
+    }
+
+    #cboxClose {
+        background: none;
+        border: 1px solid $borderColorInput;
+        border-radius: 5px;
+        width: 24px;
+        height: 24px;
+        color: $textColor;
+
+        &:hover {
+            color: $linkColor;
+        }
+
+        &:before {
+            content: '×';
+            font-size: 3rem;
+            line-height: 14px;
+            position: absolute;
+            text-indent: 0;
+            left: 2px;
+            top: 5px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+/* Search box */
+.gsc-search-box {
+    .gsc-input {
+        background: $backgroundInput !important;
+        color: $textColor !important;
+    }
+
+    td.gsc-input {
+        border: 1px solid $borderColorInput !important;
+    }
+
+    .gsc-input-box {
+        background: transparent;
+        border: none;
+    }
+
+    .gsib_a {
+        padding: 0;
+    }
+}
+
+/* Search results */
+.gsc-result-info {
+    color: $textColor !important;
+}
+
+.gsc-control-cse {
+    background: transparent !important;
+    border-color: $borderColorInput !important;
+    color: $textColor !important;
+}
+
+.gsc-result,
+.gsc-webResult,
+.gs-result,
+.gs-webResult,
+.gs-snippet {
+    border-color: transparent !important;
+    background: transparent !important;
+    color: $textColor !important;
+}
+
+.gs-result a.gs-image {
+    border: none !important;
+}
+
+.gsc-results .gsc-cursor-box {
+    .gsc-cursor-page,
+    .gsc-cursor-current-page {
+        border: none !important;
+        background: transparent !important;
+        color: $linkColor !important;
+    }
+}

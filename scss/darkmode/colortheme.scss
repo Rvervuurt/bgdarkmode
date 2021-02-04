@@ -1,0 +1,20 @@
+&.darkmode-rood {
+    @include color-theme($origRed, $origRedLight, $origRedDark, 'rood');
+}
+
+&.darkmode-paars {
+    @include color-theme($origPurple, $origPurpleLight, $origPurpleDark, 'paars');
+}
+
+&.darkmode-groen {
+    @include color-theme($origGreen, $origGreenLight, $origGreenDark, 'groen');
+}
+
+&.darkmode-blauw {
+    @include color-theme($origBlue, $origBlueLight, $origBlueDark, 'blauw');
+}
+
+&.darkmode-lichtgrijs,
+&.darkmode-donkergrijs {
+    @include color-theme($origGrey, $origGreyLight, $origGreyDark, 'grijs');
+}
