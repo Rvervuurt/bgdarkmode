@@ -477,6 +477,14 @@ body.darkmode img[src="/afb/silverblauw_donker.png"] {
   box-sizing: border-box;
   background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/zilverblauw-donker.png");
 }
+body.darkmode img[src="/afb/silverblauw_donker_half.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/zilverblauw-donker_half.png");
+}
 body.darkmode img[src="/afb/donkergroen.png"] {
   display: inline-block;
   width: 15px;
@@ -484,6 +492,14 @@ body.darkmode img[src="/afb/donkergroen.png"] {
   padding-left: 15px;
   box-sizing: border-box;
   background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/donkergroen.png");
+}
+body.darkmode img[src="/afb/donkergroen_half.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/donkergroen_half.png");
 }
 body.darkmode img[src="/afb/lichtgroen.png"] {
   display: inline-block;
@@ -493,6 +509,14 @@ body.darkmode img[src="/afb/lichtgroen.png"] {
   box-sizing: border-box;
   background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/lichtgroen.png");
 }
+body.darkmode img[src="/afb/lichtgroen_half.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/lichtgroen_half.png");
+}
 body.darkmode img[src="/afb/geel.png"] {
   display: inline-block;
   width: 15px;
@@ -500,6 +524,14 @@ body.darkmode img[src="/afb/geel.png"] {
   padding-left: 15px;
   box-sizing: border-box;
   background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/geel.png");
+}
+body.darkmode img[src="/afb/geel_half.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/geel_half.png");
 }
 body.darkmode img[src="/afb/oranje.png"] {
   display: inline-block;
@@ -509,6 +541,14 @@ body.darkmode img[src="/afb/oranje.png"] {
   box-sizing: border-box;
   background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/oranje.png");
 }
+body.darkmode img[src="/afb/oranje_half.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/oranje_half.png");
+}
 body.darkmode img[src="/afb/donkerrood.png"] {
   display: inline-block;
   width: 15px;
@@ -516,6 +556,14 @@ body.darkmode img[src="/afb/donkerrood.png"] {
   padding-left: 15px;
   box-sizing: border-box;
   background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/donkerrood.png");
+}
+body.darkmode img[src="/afb/donkerrood_half.png"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background-image: url("https://github.com/mrpapercut/bgdarkmode/raw/main/images/shopratings/donkerrood_half.png");
 }
 body.darkmode img[src="/afb/empty.png"] {
   display: inline-block;

@@ -1,32 +1,55 @@
-
 img[src="/afb/silverblauw_donker.png"] {
     @include replace-img(15px, 15px);
     background-image: url('#{$imgPrefix}/images/shopratings/zilverblauw-donker.png');
+}
+img[src="/afb/silverblauw_donker_half.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/zilverblauw-donker_half.png');
 }
 
 img[src="/afb/donkergroen.png"] {
     @include replace-img(15px, 15px);
     background-image: url('#{$imgPrefix}/images/shopratings/donkergroen.png');
 }
+img[src="/afb/donkergroen_half.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/donkergroen_half.png');
+}
 
 img[src="/afb/lichtgroen.png"] {
     @include replace-img(15px, 15px);
     background-image: url('#{$imgPrefix}/images/shopratings/lichtgroen.png');
+}
+img[src="/afb/lichtgroen_half.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/lichtgroen_half.png');
 }
 
 img[src="/afb/geel.png"] {
     @include replace-img(15px, 15px);
     background-image: url('#{$imgPrefix}/images/shopratings/geel.png');
 }
+img[src="/afb/geel_half.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/geel_half.png');
+}
 
 img[src="/afb/oranje.png"] {
     @include replace-img(15px, 15px);
     background-image: url('#{$imgPrefix}/images/shopratings/oranje.png');
 }
+img[src="/afb/oranje_half.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/oranje_half.png');
+}
 
 img[src="/afb/donkerrood.png"] {
     @include replace-img(15px, 15px);
     background-image: url('#{$imgPrefix}/images/shopratings/donkerrood.png');
+}
+img[src="/afb/donkerrood_half.png"] {
+    @include replace-img(15px, 15px);
+    background-image: url('#{$imgPrefix}/images/shopratings/donkerrood_half.png');
 }
 
 img[src="/afb/empty.png"] {
