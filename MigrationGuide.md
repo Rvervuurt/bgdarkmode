@@ -1,5 +1,5 @@
 # Darkmode
-Dit document beschrijft hoe de darkmode-stylesheets uit repo https://github.com/mrpapercut/bgdarkmode kunnen worden geimplementeerd op BG. De darkmode stylesheets zijn opgesteld om zo simpel mogelijk toepasbaar te zijn. Dat betekent dat de stylesheets bijna geheel gebruik maken van bestaande code. Dit zorgt ervoor dat darkmode kan worden toegevoegd aan de bestaande functionaliteit zonder grote wijzigingen te hoeven doen.
+Dit document beschrijft hoe de darkmode-stylesheet uit repo https://github.com/mrpapercut/bgdarkmode kunnen worden geimplementeerd op BG. De darkmode stylesheets zijn opgesteld om zo simpel mogelijk toepasbaar te zijn. Dat betekent dat de stylesheets bijna geheel gebruik maken van bestaande code. Dit zorgt ervoor dat darkmode kan worden toegevoegd aan de bestaande functionaliteit zonder grote wijzigingen te hoeven doen.
 
 ## Wijzigingen
 Het kleurenschema van de website wordt omgezet naar "darkmode" stijl. Hiervoor worden de bestaande kleuren-stylesheets (rood.css, blauw.css etc) uitgezet, en de darkmode-stylesheet aan de pagina toegevoegd. De darkmode-stylesheet heeft ook ondersteuning voor alle kleur-varianten. Opmerking: de stylesheets voor de kleurenthemas lichtgrijs en donkergrijs zijn in darkmode identiek aan elkaar, omdat een lichtgrijze darkmode niet logisch is.
@@ -31,7 +31,7 @@ npm run build
 # For development
 npm run watch
 ```
-De gecompileerde code kan gevonden worden in `./dist/darkmode.css`.
+De gecompileerde code kan vervolgens worden gevonden in `./dist/darkmode.css`.
 
 ### Browser
 Om de stylesheet te laten werken in de browser moeten eerst alle kleur-specifieke stylesheets worden weggehaald:
