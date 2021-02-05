@@ -36,6 +36,12 @@
     }
 }
 
+// Logout button
+img[src="/images/exit.png"] {
+    @include replace-img(12px, 12px);
+    background: url('#{$imgPrefix}/images/sign-out.svg'); // https://fontawesome.com/license
+}
+
 #consolemenu {
     & > ul {
         display: grid;
@@ -50,6 +56,85 @@
                 width: 100%;
                 padding: 17px 0 14px;
                 text-align: center;
+            }
+        }
+
+        #xbox {
+            &.sfHover a,
+            &.active > a,
+            & > a:hover,
+            ul li a {
+                background: linear-gradient(0deg, rgba($origGreenDark, 0.5), $backgroundElements),
+                            linear-gradient(90deg, $backgroundElements, transparent);
+                text-shadow: 0px 1px 0px $backgroundInput !important;
+            }
+
+            ul li a {
+                background: $origGreenDark !important;
+                text-shadow: 0px 1px 0px $backgroundInput;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        #ps3 {
+            &.sfHover a,
+            &.active > a,
+            & > a:hover {
+                background: linear-gradient(0deg, rgba($origBlueDark, 0.5), $backgroundElements),
+                            linear-gradient(90deg, $backgroundElements, transparent);
+                text-shadow: 0px 1px 0px $backgroundInput !important;
+            }
+
+            ul li a {
+                background: $origBlueDark !important;
+                text-shadow: 0px 1px 0px $backgroundInput;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        #preorders {
+            &.sfHover a,
+            &.active > a,
+            & > a:hover,
+            ul {
+                background: linear-gradient(0deg, rgba($origRedDark, 0.5), $backgroundElements),
+                            linear-gradient(90deg, $backgroundElements, transparent);
+                text-shadow: 0px 1px 0px $backgroundInput !important;
+            }
+
+            ul li a {
+                background: $origRedDark !important;
+                text-shadow: 0px 1px 0px $backgroundInput;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        #pc {
+            &.sfHover a,
+            &.active > a,
+            & > a:hover,
+            ul {
+                background: linear-gradient(0deg, rgba($origGreyDark, 0.5), $backgroundElements),
+                            linear-gradient(90deg, $backgroundElements, transparent);
+                text-shadow: 0px 1px 0px $backgroundInput !important;
+            }
+
+            ul li a {
+                background: $origGreyDark !important;
+                text-shadow: 0px 1px 0px $backgroundInput;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }

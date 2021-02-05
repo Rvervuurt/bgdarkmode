@@ -5,8 +5,17 @@
 }
 
 .gamereactie {
+    img[src="/images/user-online.jpg"],
+    img[src="/images/user-offline.jpg"] {
+        display: none;
+    }
+
     .spoiler:hover {
         color: $textColor;
+    }
+
+    .gamereactie-content hr + span {
+        color: $borderColorInput !important;
     }
 }
 
