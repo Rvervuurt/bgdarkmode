@@ -391,6 +391,9 @@ body.darkmode #colorbox #cboxClose:before {
 
 /* User profile page */
 /* Profiel */
+body.darkmode #laatste-reacties {
+  z-index: 1;
+}
 body.darkmode #home-laatstereactie-tabs li {
   margin-right: 20px;
 }
