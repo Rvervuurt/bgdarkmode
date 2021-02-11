@@ -59,7 +59,8 @@ body.darkmode table .sorting_asc:after {
 body.darkmode table .sorting_asc:after {
   content: "";
 }
-body.darkmode table.table-shop .highlightedRow {
+body.darkmode table.table-shop .highlightedRow,
+body.darkmode table#tbsearchresults tr {
   background: transparent !important;
 }
 /* End Generic */

@@ -65,11 +65,9 @@
             content: '\f106';
         }
 
-        // Found on Game Review pages
-        &.table-shop {
-            .highlightedRow {
-                background: transparent !important;
-            }
+        &.table-shop .highlightedRow,
+        &#tbsearchresults tr {
+            background: transparent !important;
         }
     }
 }
