@@ -368,6 +368,9 @@ body.darkmode #colorbox #cboxBottomRight,
 body.darkmode #colorbox #volledigeimage {
   background: transparent;
 }
+body.darkmode #colorbox #volledigebeschrijving {
+  background: #333;
+}
 body.darkmode #colorbox #cboxClose {
   background: none;
   border: 1px solid #888;
