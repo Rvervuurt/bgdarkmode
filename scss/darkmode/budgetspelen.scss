@@ -1,0 +1,48 @@
+/** Above header */
+#top {
+    a.twitter,
+    a.youtubesmall,
+    a.insta,
+    a.RSS {
+        color: $textColor !important;
+    }
+}
+
+/** Header **/
+// Budgetgaming logo
+#bglogo {
+    a img {
+        @include replace-img(171px, 14px);
+        background-image: url('#{$imgPrefix}/images/onderdeelvanbudgetgaming-dm.png');
+    }
+}
+
+// Budgetspelen logo
+#bglogo + #logo a {
+    background-image: url('#{$imgPrefix}/images/bgspelenlogo-dm.png');
+}
+
+// Logout button
+img[src$="/images/exit.png"] {
+    @include replace-img(12px, 12px);
+    background: url('#{$imgPrefix}/images/sign-out.svg'); // https://fontawesome.com/license
+}
+
+/** Comments */
+.gamereactie {
+    img[src$="/images/user-online.jpg"],
+    img[src$="/images/user-offline.jpg"] {
+        display: none;
+    }
+}
+
+/** Sidebar */
+#submitgooglesearch {
+    display: flex;
+
+    .zoekicon {
+        text-align: center;
+        margin: 0;
+        box-shadow: none;
+    }
+}
