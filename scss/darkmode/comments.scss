@@ -51,6 +51,14 @@
             background: linear-gradient(180deg, $backgroundLight, $backgroundElements);
             font-weight: bold;
         }
+
+
+        // We moeten even een goede selector vinden (of maken) voor een topic-edit, want daar mist
+        // de onderstaande padding: https://i.imgur.com/vkgmX6Z.png
+
+        // .game-formulier-veld  {
+        //     padding-left: 95px;
+        // }
     }
 }
 /** End comments **/
